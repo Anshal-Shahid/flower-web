@@ -93,3 +93,41 @@ font-family: lora;
 }
 
 
+
+/* Footer */
+footer {
+    background-color:rgba(117, 96, 64, 0.899) ;
+    color: var(--secondary-color);
+    min-height: 8rem;
+    font-family: lora;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+footer p {
+    font-size: 1.1rem;
+}
+
+.icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.icons a {
+    color: var(--secondary-color);
+    font-size: 1.65rem;
+}
+
+
+@media (max-width:670px) {
+    footer {
+        flex-direction: column;
+        justify-content: unset;
+        padding-top: 1.5rem;
+        /* padding-bottom:2rem ; */
+        min-height: 7rem;
+    }
+}
+
